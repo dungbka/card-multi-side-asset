@@ -36,40 +36,6 @@
             "updated_at": "2026-01-10"
         },
         {
-            "id": "jp_n5_vocab",
-            "sort": 30,
-            "language": "ja",
-            "name": "JLPT N5 Vocabulary",
-            "description": "Từ vựng JLPT N5 kèm ví dụ và nghĩa tiếng Việt",
-            "level": "N5",
-            "version": 2,
-            "free": true,
-            "tags": [
-                "japanese",
-                "jlpt",
-                "n5",
-                "vocab"
-            ],
-            "units": [
-                {
-                    "unit_id": "u1",
-                    "unit_name": "第1課：あいさつ",
-                    "unit_url": "jp_n5_vocab_u1_v2.enc",
-                    "card_count": 80,
-                    "size_kb": 45
-                },
-                {
-                    "unit_id": "u2",
-                    "unit_name": "第2課：家族",
-                    "unit_url": "jp_n5_vocab_u2_v2.enc",
-                    "card_count": 90,
-                    "size_kb": 50
-                }
-            ],
-            "created_at": "2025-11-20",
-            "updated_at": "2026-01-10"
-        },
-        {
             "id": "jp_daily_phrases",
             "sort": 40,
             "language": "ja",
