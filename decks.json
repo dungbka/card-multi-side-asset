@@ -1,6 +1,6 @@
 {
     "schema_version": 1,
-    "updated_at": "2026-01-15T10:00:00Z",
+    "updated_at": "2026-01-15T11:00:00Z",
     "decks": [
         {
             "id": "en_basic_vocab",
@@ -9,40 +9,31 @@
             "name": "English Basic Vocabulary",
             "description": "Basic English vocabulary for beginners",
             "level": "Basic",
-            "card_count": 500,
-            "size_kb": 180,
             "version": 1,
-            "file": "en_basic_vocab_v1.enc",
-            "sha256": "a1b2c3d4e5f6",
             "free": true,
             "tags": [
                 "english",
                 "vocab",
                 "basic"
             ],
+            "units": [
+                {
+                    "unit_id": "u1",
+                    "unit_name": "Unit 1: Greetings",
+                    "unit_url": "https://pub-2ab8934a676c4d92bfe9858fe0e6d3ab.r2.dev/300word/300word-unit1.csv",
+                    "card_count": 50,
+                    "size_kb": 20
+                },
+                {
+                    "unit_id": "u2",
+                    "unit_name": "Unit 2: Daily Objects",
+                    "unit_url": "https://pub-2ab8934a676c4d92bfe9858fe0e6d3ab.r2.dev/300word/300word-unit2.csv",
+                    "card_count": 60,
+                    "size_kb": 24
+                }
+            ],
             "created_at": "2025-12-01",
             "updated_at": "2026-01-10"
-        },
-        {
-            "id": "en_daily_phrases",
-            "sort": 20,
-            "language": "en",
-            "name": "English Daily Phrases",
-            "description": "Common English phrases used in daily conversations",
-            "level": "Basic",
-            "card_count": 300,
-            "size_kb": 120,
-            "version": 1,
-            "file": "en_daily_phrases_v1.enc",
-            "sha256": "f6e5d4c3b2a1",
-            "free": true,
-            "tags": [
-                "english",
-                "phrase",
-                "daily"
-            ],
-            "created_at": "2025-12-05",
-            "updated_at": "2026-01-12"
         },
         {
             "id": "jp_n5_vocab",
@@ -51,17 +42,29 @@
             "name": "JLPT N5 Vocabulary",
             "description": "Từ vựng JLPT N5 kèm ví dụ và nghĩa tiếng Việt",
             "level": "N5",
-            "card_count": 800,
-            "size_kb": 420,
             "version": 2,
-            "file": "jp_n5_vocab_v2.enc",
-            "sha256": "9f2c1e8a7b6d",
             "free": true,
             "tags": [
                 "japanese",
                 "jlpt",
                 "n5",
                 "vocab"
+            ],
+            "units": [
+                {
+                    "unit_id": "u1",
+                    "unit_name": "第1課：あいさつ",
+                    "unit_url": "jp_n5_vocab_u1_v2.enc",
+                    "card_count": 80,
+                    "size_kb": 45
+                },
+                {
+                    "unit_id": "u2",
+                    "unit_name": "第2課：家族",
+                    "unit_url": "jp_n5_vocab_u2_v2.enc",
+                    "card_count": 90,
+                    "size_kb": 50
+                }
             ],
             "created_at": "2025-11-20",
             "updated_at": "2026-01-10"
@@ -73,16 +76,28 @@
             "name": "Japanese Daily Phrases",
             "description": "Câu giao tiếp tiếng Nhật thông dụng hằng ngày",
             "level": "Basic",
-            "card_count": 250,
-            "size_kb": 140,
             "version": 1,
-            "file": "jp_daily_phrases_v1.enc",
-            "sha256": "112233aabbcc",
             "free": true,
             "tags": [
                 "japanese",
                 "phrase",
                 "daily"
+            ],
+            "units": [
+                {
+                    "unit_id": "u1",
+                    "unit_name": "あいさつ",
+                    "unit_url": "https://pub-2ab8934a676c4d92bfe9858fe0e6d3ab.r2.dev/mimikara-n2/mimi-n2-unit1.csv",
+                    "card_count": 30,
+                    "size_kb": 15
+                },
+                {
+                    "unit_id": "u2",
+                    "unit_name": "感謝・謝罪",
+                    "unit_url": "https://pub-2ab8934a676c4d92bfe9858fe0e6d3ab.r2.dev/mimikara-n2/mimi-n2-unit2.csv",
+                    "card_count": 25,
+                    "size_kb": 13
+                }
             ],
             "created_at": "2025-12-10",
             "updated_at": "2026-01-08"
